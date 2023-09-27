@@ -1,0 +1,13 @@
+
+.gradientBg {
+    background: linear-gradient(99deg, #CCCCFF 0%, #C085FB 100%);
+  }
+
+
+.btnPrimary {
+    @apply py-2 px-8 bg-secondary font-semibold text-white rounded hover:bg-tertiary transition-all duration-300
+}
+
+.btnSecondary {
+    @apply py-2 px-8 bg-yellow-400 font-semibold text-blue-950 rounded hover:bg-yellow-200 transition-all duration-300
+}
