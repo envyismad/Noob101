@@ -8,9 +8,7 @@ const Navbar = () => {
             {link: "Home", path: "home"},
             {link: "About", path: "about"},
             {link: "Features", path: "features"},
-            {link: "Services", path: "services"},
             {link: "Pricing", path: "pricing"},
-            {link: "Team", path: "team"},
     ]
 
     return (

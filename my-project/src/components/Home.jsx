@@ -12,7 +12,7 @@ const Home = () => {
                     </div>
 
                     <div className='md:w-3/5'>
-                        <h2 className='md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed'>Consult or Visit Us</h2>
+                        <h2 className='md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Consult or Visit Us</h2>
                         <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl text-[#3C0A44] font-bold'>At FurryPal, we're all about ensuring your furry friends live their happiest, healthiest lives. Our dedicated team provides top-notch medical care and services to help your pets thrive for years to come.</p>
                         
                         <div className='space-x-5 space-y-4'>

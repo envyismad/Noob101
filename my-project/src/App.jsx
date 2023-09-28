@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Features from './components/Features'
 import Gallery from './components/Gallery'
+import Pricing from './components/Pricing'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Features />
         <Gallery />
+        <Pricing />
     </>
   )
 }
