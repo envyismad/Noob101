@@ -13,7 +13,7 @@ const Pricing = () => {
         ]
 
     return (
-        <div className='md:px-14 p-4 max-w-s mx-auto py-10'>
+        <div className='md:px-14 p-4 max-w-s mx-auto py-10' id='pricing'>
                 <div className='text-center'>
                     <h2 className='md:text-4xl text=2xl font-extrabold text-iris mb-2'>Affordable Pet Care Plans Tailored to Your Needs</h2>
                     <p className='text-tertiary'>Explore our range of flexible pricing plans designed to provide exceptional care for your beloved pets without breaking the bank.<br></br> Whether it's boarding, daycare, grooming, or training, we've got a plan that suits your furry friend's needs and your budget</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="mt-32 bg-gray-50 px-4 pb-20 pt-4">
+    <section className="mt-32 bg-gray-50 px-4 pb-20 pt-4" id='about'>
     <div className="container mx-auto">
       <div className="mt-32 flex flex-wrap items-center">
 

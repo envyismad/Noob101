@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import {Link} from 'react-scroll';
 
 
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
 
                         <ul className='md:flex space-x-12 hidden'>
                             {
-                                navItems.map(({link,path}) => <a key={link} href={path} className='block hover:text-purple-500'>{link}</a>)
+                                navItems.map(({link,path}) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path} className='block hover:text-purple-500 cursor-pointer'>{link}</Link>)
                             }
                         </ul>
                     </div>

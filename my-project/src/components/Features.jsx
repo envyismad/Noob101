@@ -4,7 +4,7 @@ import featuredPic from '../assets/petcafe02.jpg'
 
 const Features = () => {
   return (
-        <div className='my-24 md:px-14 px-4 max-w-screen-2xl mx-auto'>
+        <div className='my-24 md:px-14 px-4 max-w-screen-2xl mx-auto' id='features'>
             <div className='flex flex-col lg:flex-row justify-between items-start gap-10'>
                 <div className='lg:w-1/2'>
                     <h2 className='text-3xl text-[#3C0A44] font-bold lg:w-1/2 mb-3'>We Offer Best Services </h2>
